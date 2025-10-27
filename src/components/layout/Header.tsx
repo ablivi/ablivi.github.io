@@ -30,10 +30,12 @@ export const Header = () => {
               <MessageSquare className="w-4 h-4" />
               Messages
             </Link>
-            <Button variant="ghost" size="sm">
-              <User className="w-4 h-4 mr-1" />
-              Sign In
-            </Button>
+            <Link to="/login">
+              <Button variant="ghost" size="sm">
+                <User className="w-4 h-4 mr-1" />
+                Sign In
+              </Button>
+            </Link>
           </div>
         </div>
 

@@ -11,7 +11,8 @@ import Cart from "./pages/Cart";
 import Orders from "./pages/Orders";
 import Messages from "./pages/Messages";
 import SellerCenter from "./pages/SellerCenter";
-import Analytics from "./pages/Analytics"; // Import the Analytics component
+import Analytics from "./pages/Analytics";
+import Login from "./pages/Login";
 import About from "./pages/About";
 import Help from "./pages/Help";
 import NotFound from "./pages/NotFound";
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/messages" element={<Messages />} />
           <Route path="/seller" element={<SellerCenter />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/help" element={<Help />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
